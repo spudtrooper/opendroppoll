@@ -17,9 +17,9 @@ import (
 )
 
 var (
-	// Receiver ID ff5cc54defdf is not discoverable
+	// Receiver ID xxxxx54defdf is not discoverable
 	idIsNotDiscoverable = regexp.MustCompile(`Receiver ID ([0-9a-f]{12}) is not discoverable`)
-	// Found  index 1  ID ff5cc54defdf  name Jeffrey’s iPhone (2)
+	// Found  index 1  ID xxxxx54defdf  name Boooooo
 	foundIndexRE = regexp.MustCompile(`Found\s+index\s+(\d+)\s+ID\s+([0-9a-f]{12})\s+name\s+(.*)`)
 
 	verbose = flag.Bool("v", false, "Verbose logging")
